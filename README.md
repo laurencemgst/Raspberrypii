@@ -18,7 +18,7 @@
 - In this project, we choose **_Raspberry Pi 3_** as device, **_Raspberry Pi OS (Legacy)_** as operating system, and our **_32GB SD Card_** as storage.
 - After choosing the preferred device, OS, and storage, click **Next**.
 - and click **Edit Settings** to customize the OS Settings.
-- In the OS Customization, we set the host as **raspberrypi**, username as **pogiako**, and password as **12345678**. We configure our wireless LAN available which is **CSPC BayanihanNet** and set the wireless LAN   country to **PH.** Lastly, we set our timezone to **Asia/Shanghai** since they have the same timezone (GMT+8) with Manila, then click **Save**.
+- In the OS Customization, we set the host as **raspberrypi**, username as **username**, and password as **password**. We configure our wireless LAN available which is **CSPC BayanihanNet** and set the wireless LAN   country to **PH.** Lastly, we set our timezone to **Asia/Shanghai** since they have the same timezone (GMT+8) with Manila, then click **Save**.
 - Don't forget to enable SSH and use password authentication, then click **Save**.
 - Click **Yes** to apply our customized settings.
 > [!WARNING]
@@ -32,7 +32,7 @@
 
 ### 2. Connect to Raspberry Pi via SSH (Secure Socket Shell) then update the OS ###
 In the command prompt, type SSH to access the network protocol. Then type the following command:
-   - ssh username@hostname (e.g. pogiako@192.168.1.1 or pogiako@raspberypi.local)
+   - ssh username@hostname (e.g. username@172.18.90.149 or pogiako@raspberypi.local)
    - sudo apt update
    - sudo apt upgrade
 
