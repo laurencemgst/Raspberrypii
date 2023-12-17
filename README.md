@@ -32,7 +32,7 @@
 
 ### 2. Connect to Raspberry Pi via SSH (Secure Socket Shell) then update the OS ###
 In the command prompt, type SSH to access the network protocol. Then type the following command:
-   - ssh username@hostname (e.g. username@172.18.90.149 or pogiako@raspberypi.local)
+   - ssh username@hostname (e.g. username@172.18.90.149 or username@raspberypi.local)
    - sudo apt update
    - sudo apt upgrade
 
