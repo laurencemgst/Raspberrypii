@@ -13,7 +13,7 @@
 - Raspberry Pi Imager is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
 - Download and install Raspberry Pi Imager to a computer with an SD card reader. Put the SD card you'll use with your Raspberry Pi into the reader and run Raspberry Pi Imager.
 - Here is the link for the [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-![Raspberrypi Website Screenshot](https://github.com/laurencemgst/Raspberrypii/tree/main/assets/assets/1.png)
+![Raspberrypi Website Screenshot](https://github.com/laurencemgst/Raspberrypii/tree/main/assets/1.png)
 - Open Raspberry Pi Imager. Choose Raspberrry Pi Device, Operating System, and Storage.
 - In this project, we choose **_Raspberry Pi 3_** as device, **_Raspberry Pi OS (Legacy)_** as operating system, and our **_32GB SD Card_** as storage.
 - After choosing the preferred device, OS, and storage, click **Next**.
