@@ -20,7 +20,7 @@
 - In this project, we choose **_Raspberry Pi 3_** as device, **_Raspberry Pi OS (Legacy)_** as operating system, and our **_32GB SD Card_** as storage.
 - After choosing the preferred device, OS, and storage, click **Next**.
 - and click **Edit Settings** to customize the OS Settings.
-- In the OS Customization, we set the host as **raspberrypi**, username as **username**, and password as **password**. We configure our wireless LAN available which is **CSPC BayanihanNet** and set the wireless LAN   country to **PH.** Lastly, we set our timezone to **Asia/Shanghai** since they have the same timezone (GMT+8) with Manila, then click **Save**.
+- In the OS Customization, we set the host as **raspberrypi**, username as **admin**, and password as **password**. We configure our wireless LAN available which is **CSPC BayanihanNet** and set the wireless LAN   country to **PH.** Lastly, we set our timezone to **Asia/Shanghai** since they have the same timezone (GMT+8) with Manila, then click **Save**.
 - Don't forget to enable SSH and use password authentication, then click **Save**.
 - Click **Yes** to apply our customized settings.
 > [!WARNING]
@@ -34,7 +34,7 @@
 
 ### 2. Connect to Raspberry Pi via SSH (Secure Socket Shell) then update the OS ###
 In the command prompt, type SSH to access the network protocol. Then type the following command:
-   - ssh username@hostname (e.g. username@172.18.90.149 or username@raspberypi.local)
+   - ssh username@hostname (e.g. admin@172.18.90.149 or username@raspberypi.local)
    - sudo apt update
    - sudo apt upgrade
 > [!NOTE]
@@ -55,13 +55,22 @@ Here are the tutorials on how to install LAMP stack
     + **_sudo apt install apache2_**
 ![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/a34018e2-e166-4ece-8fda-ca1f9fe1e6d7)
     + **_sudo apt install mariadb-server_**
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/3d31a1f3-9871-4f5e-8115-535428defb0b)
     + **_sudo mysql_secure_installation_**
     + **_sudo apt install php libapache2-mod-php php-mysql_**
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/f7f9ed4f-b3f1-44f6-8c28-5f50351977bd)
     + **_sudo apt-get install php_**
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/2413f938-58cf-4934-b754-79f6c44e0e75)
     + **_sudo apt install phpmyadmin_**
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/c6ba40f7-adbf-4565-b1a7-6577060e9fc3)
 
 ### 4. Connect to Raspberry Pi via VNC
 - Install RealVNC® Viewer to the device you want to control from via this [link](https://www.realvnc.com/en/connect/download/viewer/)
 - Before opening VNC on our PC, access first the Raspberry Pi Configuration Tool to enable VNC on the OS via the **_sudo raspi-config_** command.
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/70ac4aff-5ee1-4942-a8c0-d6f0a1529fa5)
 - Using the arrows, navigate to **'Interfacing Options'** > **'VNC'**, then choose **'Yes'** and select **'OK'**
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/bc517829-206c-4b64-bfcc-7ca673ffaac8)
 - On the device you will use to take control, run RealVNC Viewer and enter the private IP address in the search bar. If the screen of the Raspberry Pi appeared on RealVNC, it means that it already established connection and control on the Raspberry Pi.
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/5a269c53-bca6-491e-b084-724ac84ed70f)
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/f958cad8-c2fe-478f-bdd8-0d8cc5485615)
+
