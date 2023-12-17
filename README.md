@@ -5,6 +5,12 @@
 - Dagon, Cecil
 - Celetaria, Rodney
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+| Paragraph | Text |
+
 ## STEP-BY-STEP DOCUMENTATION
 
 ### 1. Install Headless Raspbian OS into Raspberry Pi.
