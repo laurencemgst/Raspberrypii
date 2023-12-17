@@ -40,7 +40,7 @@ In the command prompt, type SSH to access the network protocol. Then type the fo
 > **_N: Be aware that removing the lock file is not a solution and may break your system._**<br>
 > **_E: Unable to lock directory /var/lib/apt/lists/_**<br>
 > If you encounter this message after sudo apt update. you may use this command first<br>
-> sudo service packagekit restart
+> **sudo service packagekit restart**
 
 ### 3. Install LAMP Stack. LAMP stands for Linux, Apache, MySQL, and PHP. 
 This stack is typically installed together in order to enable a server to host dynamic websites and web apps written in PHP.
