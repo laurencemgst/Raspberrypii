@@ -35,7 +35,9 @@ In the command prompt, type SSH to access the network protocol. Then type the fo
 
 ### 3. Install LAMP Stack. LAMP stands for Linux, Apache, MySQL, and PHP. 
 This stack is typically installed together in order to enable a server to host dynamic websites and web apps written in PHP.
-Here are the tutorials on how to install LAMP stack [[1]](https://ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/)[[2]](https://linuxhint.com/install-phpmyadmin-raspberry-pi/)
+Here are the tutorials on how to install LAMP stack 
+[How to Install PHPMyAdmin on Raspberry Pi](https://ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/)
+[Install Apache, MySQL, PHP (LAMP) Stack On Ubuntu 18.04 LTS](https://linuxhint.com/install-phpmyadmin-raspberry-pi/)
  - To install the stack, type the following commands on our command prompt connected to Raspberry Pia via SSH.
     + **_sudo apt install apache2_**
     + **_sudo apt install mariadb-server_**
