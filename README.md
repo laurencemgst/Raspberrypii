@@ -1,11 +1,6 @@
 # Information Assurance and Security - Final Project
-### Keylogger Group of BSCS 3B ###
-- Abenir, John Louie
-- Ballerda, Carlo James
-- Dagon, Cecil
-- Celetaria, Rodney
 
-| Keylogger Group of BSCS 3B |
+| ### Keylogger Group of BSCS 3B ### |
 | -------------------------- |
 | Abenir, John Louie |
 | Ballerda, Carlo James |
