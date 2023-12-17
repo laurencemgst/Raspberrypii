@@ -35,6 +35,12 @@ In the command prompt, type SSH to access the network protocol. Then type the fo
    - ssh username@hostname (e.g. username@172.18.90.149 or username@raspberypi.local)
    - sudo apt update
    - sudo apt upgrade
+> [!NOTE]
+> E: Could not get lock /var/lib/lists/lock. It is held by process 1131 (packagekitd)
+> N: Be aware that removing the lock file is not a solution and may break your system.
+> E: Unable to lock directory /var/lib/apt/lists/
+> If you encounter this message after sudo apt update. you may use this command first
+> sudo service packagekit restart
 
 ### 3. Install LAMP Stack. LAMP stands for Linux, Apache, MySQL, and PHP. 
 This stack is typically installed together in order to enable a server to host dynamic websites and web apps written in PHP.
