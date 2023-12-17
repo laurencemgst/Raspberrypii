@@ -13,7 +13,8 @@
 - Raspberry Pi Imager is the quick and easy way to install Raspberry Pi OS and other operating systems to a microSD card, ready to use with your Raspberry Pi.
 - Download and install Raspberry Pi Imager to a computer with an SD card reader. Put the SD card you'll use with your Raspberry Pi into the reader and run Raspberry Pi Imager.
 - Here is the link for the [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
-![Raspberrypi Website Screenshot](https://github.com/laurencemgst/Raspberrypii/assets/89713838/922e7f6d-8957-4c5a-a890-d309b55eaa87)
+![Raspberrypi Website Screenshot](https://github.com/laurencemgst/Raspberrypii/assets/89713838/41d28ac5-bdeb-4416-a890-1603f015ad9e)
+
 
 - Open Raspberry Pi Imager. Choose Raspberrry Pi Device, Operating System, and Storage.
 - In this project, we choose **_Raspberry Pi 3_** as device, **_Raspberry Pi OS (Legacy)_** as operating system, and our **_32GB SD Card_** as storage.
@@ -41,8 +42,9 @@ In the command prompt, type SSH to access the network protocol. Then type the fo
 > **_N: Be aware that removing the lock file is not a solution and may break your system._**<br>
 > **_E: Unable to lock directory /var/lib/apt/lists/_**<br>
 > If you encounter this message after sudo apt update. you may use this command first<br>
-> **sudo service packagekit restart**<br>
-> then, proceed to **sudo apt update && sudo apt upgrade**
+> **sudo apt-get update && sudo apt-get dist-upgrade**
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/b403efbc-6b95-4594-82dd-b3611a51ee3a)
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/df3fceda-fe1b-44f2-8f03-ef379cde8d1b)
 
 ### 3. Install LAMP Stack. LAMP stands for Linux, Apache, MySQL, and PHP. 
 This stack is typically installed together in order to enable a server to host dynamic websites and web apps written in PHP.
@@ -51,6 +53,7 @@ Here are the tutorials on how to install LAMP stack
 [Install Apache, MySQL, PHP (LAMP) Stack On Ubuntu 18.04 LTS](https://linuxhint.com/install-phpmyadmin-raspberry-pi/)
  - To install the stack, type the following commands on our command prompt connected to Raspberry Pia via SSH.
     + **_sudo apt install apache2_**
+![image](https://github.com/laurencemgst/Raspberrypii/assets/89713838/a34018e2-e166-4ece-8fda-ca1f9fe1e6d7)
     + **_sudo apt install mariadb-server_**
     + **_sudo mysql_secure_installation_**
     + **_sudo apt install php libapache2-mod-php php-mysql_**
