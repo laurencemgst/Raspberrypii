@@ -5,11 +5,12 @@
 - Dagon, Cecil
 - Celetaria, Rodney
 
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-| Paragraph | Text |
+| Keylogger Group of BSCS 3B |
+| -------------------------- |
+| Abenir, John Louie |
+| Ballerda, Carlo James |
+| Dagon, Cecil |
+| Celetaria, Rodney |
 
 ## STEP-BY-STEP DOCUMENTATION
 
